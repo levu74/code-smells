@@ -54,6 +54,7 @@ namespace CodeSmells.CalculateShapeArea
                 Console.Write("Do you want continue? (y/n): ");
                 if (Console.ReadKey().KeyChar == 'n')
                 {
+                    Console.WriteLine("Exit");
                     return;
                 } 
             }
